@@ -3,13 +3,14 @@ import assets from '../assets/assets';
 import toast from 'react-hot-toast';
 import { motion } from 'motion/react';
 
+const accKey = import.meta.env.VITE_REACT_APP_WEB3FORMS_ACCESS_KEY;
+
 const ContactUs = () => {
 	const onSubmit = async event => {
 		event.preventDefault();
 
 		const formData = new FormData(event.target);
 
-		const accKey = import.meta.env.VITE_REACT_APP_WEB3FORMS_ACCESS_KEY;
 		formData.append('access_key', accKey);
 
 		try {
