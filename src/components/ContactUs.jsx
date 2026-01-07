@@ -55,7 +55,7 @@ const ContactUs = () => {
 				className='grid sm:grid-cols-2 gap-3 sm:gap-5 max-w-2xl w-full'
 			>
 				<div>
-					<p className='mb-2 text-sm font-medium'>Your name</p>
+					<p className='mb-2 text-sm font-medium'>Name</p>
 					<div className='flex pl-3 rounded-lg border border-gray-300 dark:border-gray-600'>
 						<img src={assets.person_icon} alt='person' />
 						<input
@@ -69,7 +69,7 @@ const ContactUs = () => {
 				</div>
 
 				<div>
-					<p className='mb-2 text-sm font-medium'>Email id</p>
+					<p className='mb-2 text-sm font-medium'>Email</p>
 					<div className='flex pl-3 rounded-lg border border-gray-300 dark:border-gray-600'>
 						<img src={assets.email_icon} alt='email' />
 						<input
